@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, 'public'))); // لازم السطر 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html')); // لازم ده
   });
-const correctPassword = "Borta11";
+const correctPassword = "115200";
 
 let randomPassword = generatePassword();
 let lastGenerated = Date.now();
